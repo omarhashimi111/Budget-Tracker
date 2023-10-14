@@ -1,0 +1,83 @@
+
+
+.history{
+    width: 100%;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 300px;
+    max-height: 100%;
+}
+
+.income-container{
+    height: 60px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.income h4{
+    color: green;
+    font-size: 22px;
+}
+.expenses h4{
+    color: red;
+    font-size: 22px;
+}
+
+.history-title{
+    font-size: 20px;
+    padding: 6px;
+    background-color: rgb(159, 208, 252);
+}
+.history-list{
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: rgb(159, 208, 252);
+}
+.track{
+    height: 30px;
+    width: 99%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+}
+.track li{
+    flex: 8;
+    font-size: 18px;
+    padding: 3px;
+    margin-left: 4px;
+}
+.track p{
+    flex:1;
+    text-align: right;
+}
+
+.track button{
+    flex: .5;
+}
+
+.plus{
+    border-left: 3px solid green;
+}
+.mins{
+    border-left: 3px solid red;
+}
+.empty{
+    font-size: 20px;
+    margin: 20px;
+}
+.income-container{
+    background-color: rgb(149, 238, 168);
+}
+.x {
+    background-color: black;
+}
